@@ -20,8 +20,38 @@ body{
 header{
     background: purple;
     padding: 10px;
+    margin-bottom: 0;
 }
 
 .top{
     color: white;
 }
+
+
+/*styles for navigation */
+nav{
+    background: red;
+}
+nav ul{
+    margin-top: 0;
+}
+
+nav ul li{
+    display: inline-block;
+   
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 10px 25px;
+    border: 1px solid white;
+  
+}
+
+
+
+
