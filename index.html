@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<meta name="author" charset="utf-8"/>
+	<style>
+		label{
+			display: block;
+		}
+		input{
+			display: inline;
+		}
+		span{
+			display: inline-block;
+		}
+		input[type="checkbox"]{
+			width: 20px;
+			height: 20px;
+			
+		}
+	</style>
+</head>
+<body>
+	<h1>form with css</h1>
+
+	<form action="/form/" method="GET">
+	<label>Game:</label>
+	<div><input type="checkbox" name="Hobbies"><span>Counter Strike</span></div>
+	<div><input type="checkbox" name="Hobbies"><span>Dota2</span></div>
+	<div><input type="checkbox" name="Hobbies"><span>Fifa</span></div>
+	<div><input type="checkbox" name="Hobbies"><span>PUBG</span></div>
+	<div><input type="checkbox" name="Hobbies"><span>Fortnite</span></div>
+	<label>Gaming Platform:</label>
+	<select>
+		<optgroup>
+			<option disabled="disabled" selected="selected">Pick your gaming platform</option>
+			<option>PC</option>
+			<option>Playstation</option>
+			<option>Xbox</option>
+			<option>Psp</option>
+			<option>Andriod</option>
+			<option>Ios</option>
+		
+		</optgroup>
+	</select>
+</form>
+
+
+
+</body>
+</html>
